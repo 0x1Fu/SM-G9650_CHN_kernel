@@ -44,6 +44,13 @@ allowed_warnings = set([
     "inet_connection_sock.c:430",
     "inet_connection_sock.c:467",
     "inet6_connection_sock.c:89",
+    "timekeeping.h:29",
+    "clk-alpha-pll.c:414",
+    "clk-alpha-pll.c:416",
+    "clk-alpha-pll.c:672",
+    "clk-alpha-pll.c:689",
+    "clk-alpha-pll.c:1150",
+    "clk-alpha-pll.c:1167"
  ])
 
 # Capture the name of the object file, can find it.
