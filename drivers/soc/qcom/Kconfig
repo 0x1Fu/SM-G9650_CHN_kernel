@@ -81,6 +81,10 @@ config QCOM_LLCC_PERFMON
 	  interface. SYSFS interface used for configure and dump the LLCC
 	  performance events.
 
+config QCOM_LLCC_CTRL
+	tristate "0x1Fu, LLCC Ctrl"
+	depends on QCOM_LLCC
+
 config QCOM_PM
 	bool "Qualcomm Power Management"
 	depends on ARCH_QCOM && !ARM64

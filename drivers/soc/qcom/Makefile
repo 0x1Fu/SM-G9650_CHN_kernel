@@ -8,6 +8,7 @@ obj-$(CONFIG_QCOM_SDM845_LLCC) += llcc-sdm845.o
 obj-$(CONFIG_QCOM_SDM670_LLCC) += llcc-sdm670.o
 obj-$(CONFIG_QCOM_LLCC_PERFMON) += llcc_perfmon.o
 obj-$(CONFIG_QCOM_LLCC_AMON) += llcc-amon.o
+obj-$(CONFIG_QCOM_LLCC_CTRL) += llcc-ctrl.o
 obj-$(CONFIG_QPNP_PBS) += qpnp-pbs.o
 obj-$(CONFIG_QCOM_PM)	+=	spm.o
 obj-$(CONFIG_QCOM_SMD) +=	smd.o
